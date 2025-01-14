@@ -6,6 +6,9 @@
 	"aliases": [
 		"CVE-2020-14188"
 	],
+	"related": [
+		"CVE-2020-14188"
+	],
 	"summary": "gajira-create GitHub action vulnerable to arbitrary code execution",
 	"details": "### Impact\nAn attacker can execute arbitrary code in the context of a GitHub runner by creating a specially crafted GitHub issue.\n\n### Patches\nThis issue is patched in gajira-create version 2.0.1.\n\n### Workarounds\nThere are no known workarounds.\n\n### References\n[GitHub Security Lab advisory GHSL-2020-172](https://securitylab.github.com/advisories/GHSL-2020-172-gajira-create-action)",
 	"severity": [
